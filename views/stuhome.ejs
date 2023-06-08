@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Student Dashboard</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+
+</head>
+
+<body style="background-image: url(https://cdn.pixabay.com/photo/2020/04/19/08/17/watercolor-5062356_960_720.jpg);">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-6">
+                <h2 style="font-size:40px; font-family:Poppins;">Transcripts</h2>
+            </div>
+            <div class="col-sm-6 pull-right">
+
+                <!-- <h2 style="font-size:36px; font-family:Fuzzy Bubbles;">Fr.Conceicao Rodrigues College of Engineering</h2> -->
+                <img src="download.jfif" class="rounded float-right">
+            </div>
+        </div>
+
+    </div>
+    <section class="ftco-section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h2>Hello, <%= reg.username %>
+                    </h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 text-center">
+                    <a href="/stuhome/transcriptdet"><button type="button" class="btn btn-primary btn-lg">Application
+                            Form</button></a>
+                </div>
+                <div class="col-sm-6 text-center">
+                    <a href="/stulogin"><button type="button" class="btn btn-primary btn-lg">logout</button></a>
+                </div>
+            </div><br>
+            <div class="row justify-content-center">
+                <div class="alert alert-primary" role="alert">
+                    Application in queue
+                </div>
+            </div>
+</body>
+
+</html>
