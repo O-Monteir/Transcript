@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+    --main-color: #28afb0;
+    --color-dark: #1d2231;
+    --text-grey: #8390A2;
+
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+.header {
+    margin-left: 1rem;
+}
+
+.body {
+    position: fixed;
+}
+
+a {
+    text-decoration: none;
+}
+
+.app-photo>img {
+    height: 9.5rem;
+    width: 7.5rem;
+    margin-right: 2rem;
+    margin-left: 2.5rem;
+    padding-top: .5rem;
+}
+
+.app-details-top>div {
+    padding: 1rem;
+    display: flex;
+}
+
+.app-details-bottom>div {
+    padding: 1rem;
+    display: inline;
+    justify-content: space-between;
+}
+
+.app-details {
+    box-sizing: border-box;
+    line-height: 0.3rem;
+    background: #f9f9f9;
+    border: 1px solid #c1c1c1;
+    margin-top: 2rem;
+    max-width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+    border-radius: 3.5px;
+}
+
+.app-details>div {
+    display: inline-block;
+}
+
+.age>div {
+    display: inline;
+    padding-right: 1rem;
+    justify-content: space-between;
+}
+
+
+.options>button {
+    display: inline;
+    justify-content: space-between;
+    text-decoration: none;
+    background: var(--main-color);
+    border-radius: 10px;
+    color: #fff;
+    font-size: .8rem;
+    padding: .5rem 1rem;
+    border: 1px solid var(--main-color);
+    text-decoration: none;
+    margin: 1.2rem;
+
+}
+
+.options {
+    margin-left: 36%;
+    height: calc(100%-200vh);
+}
+
+#dash {
+    margin-left: 1rem;
+    margin-top: 16rem;
+    display: inline;
+    justify-content: space-between;
+    text-decoration: none;
+    background: var(--main-color);
+    border-radius: 10px;
+    color: #fff;
+    font-size: .8rem;
+    padding: .5rem 1rem;
+    border: 1px solid var(--main-color);
+    text-decoration: none;
+
+}
